@@ -8,7 +8,7 @@ export const HeroCard = ({id, superhero, publisher, alter_ego, first_appearance,
 
   return (
     <Link to={`/hero/${id}`} className="my-card">
-            <img src={`/Prueba/dis/heroes/${id}.jpg`} className="img img-responsive" alt={superhero}/>
+            <img src={`/heroes/${id}.jpg`} className="img img-responsive" alt={superhero}/>
             <div className="profile-name">{superhero}</div>
             <div className="profile-position">{alter_ego}</div>
             <div className="profile-overview">
